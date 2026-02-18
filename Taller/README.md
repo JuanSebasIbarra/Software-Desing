@@ -171,3 +171,4 @@ En lugar de utilizar un diseño estático, la arquitectura permite que cada Pedi
 
 ``
 # ACTIVIDAD 5: ARQUITECTURA
+![image alt](https://github.com/JuanSebasIbarra/Software-Desing/blob/83211ebbcc8821654af6250894871e7e61b4be9a/Taller/Diagramas/Arquitectura%20del%20sistema%20de%20gestion%20de%20pagos%20para%20Cafeteria%20unviersitaria.png)
