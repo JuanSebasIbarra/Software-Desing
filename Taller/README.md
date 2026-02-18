@@ -74,7 +74,7 @@ Diseñar un software capaz de gestionar pedidos de forma eficiente, garantizando
 
 ##  Diagrama de Abstracción
 
-![image alt](img/abstraccion.jpg)
+![image alt](https://github.com/JuanSebasIbarra/Software-Desing/blob/122c98e664527dff96a884da8439bd68debd4918/Taller/Diagramas/Ejercicio%20Cafeteria%20Universitaria.jpg)
 
 ---
 
