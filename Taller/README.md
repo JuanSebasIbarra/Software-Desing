@@ -74,7 +74,7 @@ Diseñar un software capaz de gestionar pedidos de forma eficiente, garantizando
 
 ##  Diagrama de Abstracción
 
-![Diagrama Abstracción](img/abstraccion.jpg)
+![image alt](img/abstraccion.jpg)
 
 ---
 
