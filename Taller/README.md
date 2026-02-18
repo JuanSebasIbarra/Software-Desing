@@ -79,18 +79,20 @@ Diseñar un software capaz de gestionar pedidos de forma eficiente, garantizando
 ---
 
 #  ACTIVIDAD 2 — MODULARIDAD
+El sistema se ha dividido en módulos independientes siguiendo el principio de alta cohesión y bajo acoplamiento. Esta estructura permite que cada parte del software se encargue de una responsabilidad única, facilitando el mantenimiento y la escalabilidad del sistema. 
 
 El sistema se divide en módulos independientes:
 
-- Módulo Pedidos
+- Módulo Menú
+- Módulo Cocina
 - Módulo Pagos
-- Módulo Notificaciones
+- Módulo Pedidos
 - Módulo Usuarios
-- Módulo Sedes
+  
 
 ##  Diagrama de Módulos
 
-![Diagrama Modular](img/modularidad.png)
+![image alt](https://github.com/JuanSebasIbarra/Software-Desing/blob/84a3f35cb8ae9d1b0d0e44af7c3a9abd85da182c/Taller/Diagramas/Diagrama%20de%20modulos%20.png)
 
 ---
 
@@ -171,4 +173,16 @@ En lugar de utilizar un diseño estático, la arquitectura permite que cada Pedi
 
 ``
 # ACTIVIDAD 5: ARQUITECTURA
+
+La arquitectura diseñada para la cafetería universitaria se basa en un modelo de Niveles o Capas, lo que garantiza el desacoplamiento y la facilidad de mantenimiento. A continuación, se describen sus componentes: 
+
+Capa de Presentación (Frontend): Es la interfaz con la que interactúan el Cliente y el Personal de Cocina mediante una App Móvil o Web. Se encarga de capturar los pedidos y mostrar el estado en tiempo real. 
+
+Capa de Aplicación (Backend API): Actúa como el cerebro del sistema. Procesa la lógica de negocio, como la gestión de usuarios y el cálculo de totales, comunicándose con el exterior mediante protocolos HTTP/HTTPS. 
+
+Capa de Datos: Es el nivel de persistencia donde se almacenan de forma organizada los menús, registros de usuarios y el historial de pedidos en una base de datos SQL. 
+
+Sistemas Externos (Pasarela de Pago): El sistema se integra con una API externa para el procesamiento seguro de pagos, validando las transacciones sin comprometer los datos bancarios dentro de nuestra infraestructura. 
+
+
 ![image alt](https://github.com/JuanSebasIbarra/Software-Desing/blob/83211ebbcc8821654af6250894871e7e61b4be9a/Taller/Diagramas/Arquitectura%20del%20sistema%20de%20gestion%20de%20pagos%20para%20Cafeteria%20unviersitaria.png)
